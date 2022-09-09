@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spilos", "Spilos\Spilos.csproj", "{C719DC80-F575-433D-BCD2-A8D29C09FF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C719DC80-F575-433D-BCD2-A8D29C09FF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C719DC80-F575-433D-BCD2-A8D29C09FF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C719DC80-F575-433D-BCD2-A8D29C09FF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C719DC80-F575-433D-BCD2-A8D29C09FF00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7B024D0-64A7-42E1-AAA9-B3488CBB5A25}
+	EndGlobalSection
+EndGlobal
