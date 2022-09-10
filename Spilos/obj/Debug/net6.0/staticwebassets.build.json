@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+WPdhwJcZENGox7p9g6Nt1TZBsOgMslOe8mMUek1Z8c=",
+  "Hash": "xUVNMs2nxWRN6WCyKAT0/LRNl1yDcEh3l/DI9yOJCv8=",
   "Source": "Spilos",
   "BasePath": "_content/Spilos",
   "Mode": "Default",
@@ -6560,6 +6560,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\showcase_bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\uguro\\source\\repos\\Spilos\\Spilos\\wwwroot\\assets\\images\\spilos1.jpg",
+      "SourceId": "Spilos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uguro\\source\\repos\\Spilos\\Spilos\\wwwroot\\",
+      "BasePath": "_content/Spilos",
+      "RelativePath": "assets/images/spilos1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\spilos1.jpg"
     },
     {
       "Identity": "C:\\Users\\uguro\\source\\repos\\Spilos\\Spilos\\wwwroot\\assets\\images\\team-1.jpg",
