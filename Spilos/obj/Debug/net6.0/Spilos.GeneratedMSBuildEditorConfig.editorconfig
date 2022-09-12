@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\uguro\source\repos\Spilos\Spilos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/uguro/source/repos/Spilos/Spilos/Views/Admin/ManagementSpilosPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlbWVudFNwaWxvc1BhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uguro/source/repos/Spilos/Spilos/Views/Admin/UploadPhoto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBsb2FkUGhvdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/uguro/source/repos/Spilos/Spilos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
