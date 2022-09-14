@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rI/AZ5YYBjuDY2L/3jlPvaFu2SOJTEkJBjUjtgkg2DQ=",
+  "Hash": "UZ6jvD4F/XF+TAG/HL9AvAQjBXcpG74WHN77klJEmPo=",
   "Source": "Spilos",
   "BasePath": "_content/Spilos",
   "Mode": "Default",
@@ -11677,6 +11677,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\uguro\\source\\repos\\Spilos\\Spilos\\wwwroot\\desktop.ini",
+      "SourceId": "Spilos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uguro\\source\\repos\\Spilos\\Spilos\\wwwroot\\",
+      "BasePath": "_content/Spilos",
+      "RelativePath": "desktop.ini",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\desktop.ini"
     },
     {
       "Identity": "C:\\Users\\uguro\\source\\repos\\Spilos\\Spilos\\wwwroot\\favicon.ico",

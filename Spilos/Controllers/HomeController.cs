@@ -15,6 +15,7 @@ namespace Spilos.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 

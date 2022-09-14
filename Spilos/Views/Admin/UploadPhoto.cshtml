@@ -1,4 +1,5 @@
-﻿<!doctype html>
+﻿@model Spilos.Models.Images
+<!doctype html>
 <html lang="en">
 @{
 	ViewData["Title"] = "UploadPhoto";
@@ -8,7 +9,7 @@
 <h2>UploadPhoto</h2>
 
   <head>
-  	<title>Upload Photo</title>
+  	<title>Fotoğraf Yükleme</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,7 +21,37 @@
 
 	</head>
 	<body>
-
+	<form method="post" action="@Url.Action("CreateActivity","Admin")",class = "form-horizontal", role = "form">
+		<label>Etkinlik Adını Giriniz:</label>
+		<input type="text" name="folderName" />
+		<br />
+		<input type="submit" value="Etkinlik Oluştur" />
+	</form>
+	 @using (Html.BeginForm("UploadPhoto","Admin", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal", role = "form" }))
+	 {
+	@*<form method="post" action="@Url.Action("UploadPhoto","Admin")",enctype = "multipart/form-data", class = "form-horizontal", role = "form">*@		
+		<input type="file" name="imgFile" />
+		<input type="submit" value="YÜKLE" />
+		<br />
+		<table class="table">
+			<tr>
+				<th>Fotoğraf Adı</th>
+				<th>Fotoğraf</th>
+			</tr>
+			@if (Model.FileImage!=null)
+			{
+				foreach (var item in Model.FileImage)
+			{
+				<tr>
+					<td>@item.Name</td>
+					<td><img src="~/assets/images/@item.Name" height="80" width="120"/></td>
+				</tr>
+			}
+			}
+			
+		</table>
+		}	
+	@*</form>*@
 
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
